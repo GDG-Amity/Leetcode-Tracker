@@ -1,2 +1,3 @@
 notes.txt
-js/config.js
+.env
+js/env.js

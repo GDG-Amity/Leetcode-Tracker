@@ -1,0 +1,4 @@
+[build]
+  publish = "."
+  command = "node scripts/build-env.js"
+

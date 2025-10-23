@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Breakdown</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>📅 Weekly Breakdown</h1>
+        <p>Who solved problems on which day.</p>
+        <div id="loader">Loading weekly data...</div>
+    </header>
+
+    <main id="weekly-container" class="weekly-container"></main>
+
+    <div class="back-link-container">
+        <a href="index.html" class="back-link">← Back to Tracker</a>
+    </div>
+
+    <footer>
+        Made with ❤️ by Kanchan Rai
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/weekly.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Weekly Progress Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="header-logo">
+                <img src="https://www.gstatic.com/images/branding/product/1x/gdev_64dp.png" alt="Logo">
+            </div>
+            <div class="header-text-logo">
+                GDG on Campus<br>Amity University Noida
+            </div>
+        </div>
+        <div class="header-content">
+            <h1>LeetCode Weekly Tracker</h1>
+            <p>Target: 10 Questions/Week</p>
+            <button id="refresh-btn">Refresh Data</button>
+            <div id="loader">Loading member progress...</div>
+        </div>
+    </header>
+
+    <main class="tracker-container">
+        <div class="status-section">
+            <h2>Completed Target</h2>
+            <div id="completed-list" class="member-list">
+                </div>
+        </div>
+
+        <div class="status-section">
+            <h2>In Progress</h2>
+            <div id="in-progress-list" class="member-list">
+                </div>
+        </div>
+
+        <div class="add-member-section">
+            <p>Want to join the leaderboard?</p>
+            <div class="action-buttons">
+                <a href="add.html" class="action-btn">Add Your Profile</a>
+                <a href="weekly.html" class="action-btn secondary">View Weekly Breakdown</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Made with ❤️ by Kanchan Rai
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
